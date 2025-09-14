@@ -1,0 +1,13 @@
+li=[10,20,30,40,50,60];
+print(10 in li);
+print(100 in li);
+print(100 not in li);
+print(10 not in li);
+print("Using Identity");
+a=10;
+b=10;
+c=5;
+print(b is a);
+print(b is c);
+print(c is not b);
+print(a is not b);

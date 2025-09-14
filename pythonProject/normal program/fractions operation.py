@@ -1,0 +1,17 @@
+import fractions
+import math
+f1=fractions.Fraction(10)
+print(f1)
+f2=fractions.Fraction(25,4)
+print(f2)
+f3=fractions.Fraction(1.23)
+print(f3)
+f4=fractions.Fraction("1.253")
+print(f4)
+print("Addition:",f1+f2)
+print("Subtraction:",f3-f4)
+print("Multiple:",f1*f4)
+print("Division:",f2/f4)
+print("Square root:",math.sqrt(f2))
+f5=fractions.Fraction(100)
+print("Square root:",math.sqrt(f5))
